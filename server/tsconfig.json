@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "removeComments": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@*": ["./*"],
+      "@routes/*": ["./routes/*"],
+      "@entities/*": ["./entities/*"],
+      "@middlewares/*": ["./middlewares/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
